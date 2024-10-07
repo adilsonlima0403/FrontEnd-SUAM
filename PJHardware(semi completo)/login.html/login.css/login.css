@@ -13,8 +13,7 @@ body {
     background-repeat: no-repeat;
     background-position: left top;
     background-size: 200px;
-    display: flex;
-
+    
 
     font-family: Georgia, 'Times New Roman', Times, serif
 }
@@ -25,13 +24,12 @@ body {
     width: auto;
     height: 450px;
     border-radius: 30px;
-    display: flex;
 
 
 }
 
 .form-group {
-    border-radius: 5%;
+    
     margin-bottom: 300px;
     margin-top: 200px;
 }
@@ -42,7 +40,7 @@ body {
     height: 5vh;
     padding: 7px;
     border: 1px solid hwb(0 2% 100%);
-    border-radius: 10%;
+    border-radius: 15%;
 
 }
 
