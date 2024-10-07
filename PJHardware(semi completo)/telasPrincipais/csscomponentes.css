@@ -1,0 +1,134 @@
+body {
+    color: black;
+    background-color: rgb(187, 183, 183);
+    /* Color dropdown*/
+    --bs-border-color-translucent: rgba(63, 58, 58, 0.589);
+
+    /* Pg processador*/
+    margin: 0%;
+    padding: 0%;
+    height: 100%;
+    
+}
+
+#Img_redonda {
+    border-radius: 5px;
+    margin-left: 7px;
+}
+
+#Img_redonda3 {
+    border-radius: 5px;
+    margin-left: 7px;
+}
+
+#características {
+    margin-left: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-size: 30px;
+}
+
+#carac2 {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 15px;
+    color: black;
+    font-size: 20px;
+}
+
+#Funcao_processador {
+    margin-left: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-size: 30px;
+}
+
+#oque_e {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 15px;
+    color: black;
+    font-size: 30px;
+}
+
+#cpu {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 0px;
+    color: black;
+    font-size: 20px;
+
+}
+
+
+#first_p {
+    margin-left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-size: 20px;
+}
+
+#funcao_2 {
+    margin: auto;
+}
+
+
+#Img_redonda {
+    border-radius: 5px;
+}
+
+#Img_redonda2 {
+    border-radius: 5px
+}
+
+#Img_redonda3 {
+    border-radius: 5px;
+
+}
+
+/*PG placa-mae*/
+#Placa_mae {
+    margin-left: 7px;
+    border-radius: 5px;
+}
+
+#Placa_mae2 {
+    margin-left: 7px;
+    border-radius: 5px;
+
+}
+
+#Placa_mae3 {
+    margin-left: 7px;
+    border-radius: 5px;
+}
+
+/*config text*/
+#textplaca {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 10px;
+    color: black;
+    font-size: 20px;
+}
+
+#text2placa {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-size: 20px;
+}
+
+#Funcao_placa {
+    margin-left: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-size: 30px;
+}
+
+#componentes {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-size: 30px;
+}
+
+#peças {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-size: 20p
+}
