@@ -1,0 +1,168 @@
+body {
+    background-color: #fafafa;
+    transition: background 0.2s linear;
+  }
+  
+  body.dark {
+    background: #292c35;
+    color: #fff;
+  }
+
+  .checkbox {
+    opacity: 0;
+    position: fixed;
+    bottom: 4px;
+  }
+  
+  .label {
+    background-color: #111;
+    border-radius: 50px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    
+  
+    padding: 5px;
+    position: relative;
+    height: 26px;
+    width: 50px;
+    transform: scale(1.5);
+  
+  }
+  
+  
+  .label .ball {
+    background-color: #fff;
+    border-radius: 50%;
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    height: 22px;
+    width: 22px;
+    transform: translateX(0px);
+    transition: transform 0.2s linear;
+  }
+  
+  .checkbox:checked + .label .ball {
+    transform: translateX(24px);
+  }
+  
+  .fa-moon {
+    color: #f1c40f;
+  }
+  
+  .fa-sun {
+    color: #f39c12;
+  }
+
+/*///////// */
+#Img_redonda {
+    border-radius: 5px;
+    margin-left: 7px;
+}
+
+#Img_redonda3 {
+    border-radius: 5px;
+    margin-left: 7px;
+}
+
+#características {
+    margin-left: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+
+#carac2 {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 15px;
+    font-size: 20px;
+}
+
+#Funcao_processador {
+    margin-left: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+
+#oque_e {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 15px;
+    font-size: 30px;
+}
+
+#cpu {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 0px;
+    font-size: 20px;
+
+}
+
+
+#first_p {
+    margin-left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+#funcao_2 {
+    margin: auto;
+}
+
+
+#Img_redonda {
+    border-radius: 5px;
+}
+
+#Img_redonda2 {
+    border-radius: 5px
+}
+
+#Img_redonda3 {
+    border-radius: 5px;
+
+}
+
+/*PG placa-mae*/
+#Placa_mae {
+    margin-left: 7px;
+    border-radius: 5px;
+}
+
+#Placa_mae2 {
+    margin-left: 7px;
+    border-radius: 5px;
+
+}
+
+#Placa_mae3 {
+    margin-left: 7px;
+    border-radius: 5px;
+}
+
+/*config text*/
+#textplaca {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+#text2placa {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+#Funcao_placa {
+    margin-left: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+
+#componentes {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+
+#peças {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
