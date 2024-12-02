@@ -62,7 +62,7 @@
         <div class="col-md-10">
             <label for="nome" class="form-label">Nome:</label>
             <a>mensagem de erro</a>
-            <input type="text" class="form-control" id="nome"  >
+            <input type="text" class="form-control" id="nome" placeholder="Digite seu NOME COMPLETO" >
         </div>
 
         <div class="col-md-5">
@@ -88,44 +88,52 @@
         onkeyup="ajustaCpf(this)"
         onkeydown="ajustaCpf(this)" 
         onblur="validarCPF(this)"
-        maxlength="14">
+        maxlength="14"
+        placeholder="Digite seu CPF">
+
       </div>
       
         <div class="col-md-5">
             <label for="email" class="form-label">email:</label>
             <a >mensagem de erro</a>
-            <input type="email" class="form-control" id="email" >
+            <input type="email" class="form-control" id="email" placeholder="Digite seu E-mail">
         </div>
 
         <div class="col-md-10">
           <label for="login" class="form-label">Login:</label>
           <a >mensagem de erro</a>
-          <input type="text" class="form-control" id="login"  >   
+          <input type="text" class="form-control" id="login"  placeholder="Digite seu Login">   
       </div>
 
         <div class="col-md-5">
             <label for="senha" class="form-label">senha:</label>
             <a >mensagem de erro</a>
-            <input type="password" class="form-control" id="senha"  >            
+            <input type="password" class="form-control" id="senha" placeholder="Digite sua Senha" >            
         </div>
 
         <div class="col-md-5">
             <label for="conf-senha" class="form-label">Confirme sua senha:</label>
             <a >mensagem de erro</a>
-            <input type="password" class="form-control" id="conf-senha"  >
+            <input type="password" class="form-control" id="conf-senha" placeholder="Confirme sua Senha" >
             
         </div>
 
         <div class="col-md-10">
             <label for="tell" class="form-label">telefone:</label>
             <a >mensagem de erro</a>
-            <input type="tel" class="form-control" id="tell" >   
+            <input type="tel" class="form-control" id="tell" 
+            onkeydown="ajustaTelefone(this)"
+            onkeypress="ajustaTelefone(this)" 
+            onkeyup="ajustaTelefone(this)"
+            maxlength="15"
+            placeholder="Digite seu telefone celular"
+            >   
         </div>
 
         <div class="col-md-3">
             <label for="cep" class="form-label">CEP:</label>
             <a >mensagem de erro</a>
-            <input type="text" class="form-control" id="cep"  >           
+            <input type="text" class="form-control" id="cep" placeholder="Digite seu CEP"  >           
         </div>
 
         <div class="col-md-7">
@@ -136,12 +144,12 @@
 
         <div class="col-md-3">
             <label for="numero" class="form-label">Numero:</label>            
-            <input type="number" class="form-control" id="numero"  >                     
+            <input type="number" class="form-control" id="numero" placeholder="digite seu numero" >                     
         </div>
 
         <div class="col-md-3">
           <label for="Complemento" class="form-label">Complemento:</label>
-          <input type="text" class="form-control" id="Complemento"  >                     
+          <input type="text" class="form-control" id="Complemento" placeholder="EX. apartamento, casa, condomínio" >                     
       </div>
 
         <div class="col-md-2">
@@ -155,7 +163,7 @@
       </div>
 
         <div class="check">
-          <input type="checkbox" class="form-check-input" id="exampleCheck1" >
+          <input type="checkbox" class="form-check-input" id="exampleCheck1"  >
           <label class="form-check-label" for="exampleCheck1">Estou de acordo com as políticas de privacidade.</label>
         </div>
 

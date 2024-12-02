@@ -38,7 +38,7 @@ form.addEventListener("submit", (Event) => {
     cep.addEventListener("blur",() => {
         checkInputcep();
     })
-    telefone.addEventListener("blur",() => {
+    telefone.addEventListener("blur", () =>{
         checkinputtell();
     })
     datanascimento.addEventListener("blur",()=>{
@@ -133,9 +133,13 @@ function checkInputconfirmarsenha(){
 function checkinputtell(){
     const tellValue = telefone.value;
     
+    
     if(tellValue ===""){
         errorInput(telefone,"Campo obrigatório")
-    }else {
+    }else if (tellValue.length !== 15){
+        errorInput(telefone,"formato (XX)XXXXX-XXXXX")
+    }
+    else {
         const formItem = telefone.parentElement
         formItem.className = "col-md-10"
     }
@@ -192,7 +196,8 @@ function validform(){
         senha:senha.value,
         telefone:telefone.value,
         cep:cep.value,
-        datanascimento:datanascimento.value
+        datanascimento:datanascimento.value,
+        endereco:endereco.value
     };
 
     const isValid = [...formItems].every((item)=>{
@@ -374,7 +379,18 @@ function ajustaCpf(v) {
 	return true;   
 };
 
+function ajustaNumeros(v) {
+    // Remove os caracteres não numéricos
+    v.value = v.value.replace(/\D/g, "");
+}
 
 
+function ajustaTelefone(v) {
+    v.value = v.value.replace(/\D/g, "");
+    //Adiciona parênteses no DDD
+    v.value = v.value.replace(/^(\d\d)(\d)/g, "($1) $2");
+    //Adiciona hífen no número do telefone
+    v.value = v.value.replace(/(\d{5})(\d)/, "$1-$2");
+}
 
 
